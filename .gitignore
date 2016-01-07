@@ -2,3 +2,9 @@
 
 capture/*
 *.pyc
+
+
+# Ignorer tous les fichiers txt
+*.txt
+# à l'exception de foo.html qui est maintenu à la main
+!scripts/retour.txt
